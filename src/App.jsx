@@ -1,13 +1,21 @@
 import './Global.css'
-import { TelaDeLogin } from './components/TelaDeLogin'
+import { BrowserRouter as Router, Routes,Route} from 'react-router-dom';
+import TelaDeLogin from './components/TelaDeLogin';
+import TelaPrincipal from './components/TelaPrincipal';
 
 
 function App() {
   
   return (
-    <div>
-        <TelaDeLogin/>
-    </div>
+    <Router>
+     <Routes>
+
+        <Route path="/" element={<TelaDeLogin/>}/>
+        <Route path="/TelaPrincipal" element={<TelaPrincipal/>}/>
+
+     </Routes>
+    </Router>
+    
     
   )
 }

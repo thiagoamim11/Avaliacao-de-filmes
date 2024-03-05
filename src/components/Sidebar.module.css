@@ -1,0 +1,73 @@
+/*   CSS DE ALGUMAS FONTES DO PROJETO
+
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
+.kode-mono-<uniquifier> {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*/
+
+header {
+    border-bottom: solid 0.125rem;
+    border-color: #363636;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+ul {
+    display: flex;
+
+}
+
+ul li {
+    list-style: none;
+    padding: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #EEB422;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    color: #FF0000;
+    padding: 10px;
+}
+
+strong {
+    color: #FFC125;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+
+
+}

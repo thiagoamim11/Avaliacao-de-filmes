@@ -42,32 +42,30 @@ ul {
 
 ul li {
     list-style: none;
-    padding: 20px;
+    padding: 1.25rem;
 }
 
 ul li a {
     text-decoration: none;
-    color: #EEB422;
+    color: #FFC125;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
 h4 {
-    font-size: 20px;
+    font-size: 1.25rem;
     justify-content: center;
     align-items: center;
     color: #FF0000;
-    padding: 10px;
+    padding: 0.625rem;
 }
 
 strong {
     color: #FFC125;
-    font-size: 25px;
+    font-size: 1.5625rem;
     font-weight: bold;
     font-style: italic;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
-
-
 }

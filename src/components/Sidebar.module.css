@@ -33,6 +33,7 @@ header {
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
+    background-color: #1C1C1C;
 }
 
 ul {
@@ -69,3 +70,8 @@ strong {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
 }
+
+.seta {
+    color: red;
+}
+

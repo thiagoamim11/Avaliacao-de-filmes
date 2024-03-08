@@ -1,38 +1,42 @@
-import './Sidebar.module.css'
-import React, { useState } from 'react'
-import { BsFillCaretDownFill } from 'react-icons/bs'
-
+import React, { useState } from 'react';
+import { BsFillCaretDownFill } from 'react-icons/bs';
+import styles from './Sidebar.module.css'; // Importe o arquivo CSS usando styles
+// Certifique-se de importar o arquivo CSS usando styles (ou qualquer nome que você definiu)
 
 export function Sidebar() {
-    const [showGeneroDropdown, setShowGeneroDropdown] = useState(false)
-    const genero = ["Terror", "Comédia", "Ação", "Suspense"]
+    const [showGeneroDropdown, setShowGeneroDropdown] = useState(false);
+    const genero = ["Terror", "Comédia", "Ação", "Suspense"];
 
+    const toggleGeneroDropdown = (event) => {
+        event.preventDefault(); // Evita o comportamento padrão do link
+        setShowGeneroDropdown(!showGeneroDropdown);
+    };
 
     return (
         <header>
-            <h4>Avaliação de <strong>Filmes</strong> & <strong>Series</strong></h4>
+            <div>
+            <img src='filme1.png'/>
+
+            <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
+            </div>
             <ul>
                 <li><a href=''>Home</a></li>
                 <li><a href=''>Filmes</a></li>
-                <li><a href=''>Series</a></li>
-
+                <li><a href=''>Séries</a></li>
                 <li>
-                    <div className='container'>
-                        <a href=''>Categoria
-                            <div>
-                                <BsFillCaretDownFill class='seta' onClick={() => setShowGeneroDropdown(!showGeneroDropdown)} /> {/* Esse codigo é do icone da setinha para baixo */}
-                            </div>
+                    <div className={styles.container}>  { /* para funcionar a classe aqui no react é dessa maneira que faz, quebrei a cabeça por dias para descobrir isso */}
+                        <a href='' onClick={toggleGeneroDropdown}>
+                            Categoria
                         </a>
-                    </div>
-                    {showGeneroDropdown && (
-                        <ul>
-                            {genero.map(genero => (
-                                <li key={genero}>{genero}</li>
+                        <ul className={styles["genero-dropdown"]}>
+                            {genero.map((genero, index) => (
+                                <li key={index}>
+                                    <a className={styles.subCategorias} href={`#${genero}`} onClick={toggleGeneroDropdown}>{genero}</a></li>
                             ))}
                         </ul>
-                    )}
+                    </div>
                 </li>
             </ul>
-        </header >
-    )
+        </header>
+    );
 }

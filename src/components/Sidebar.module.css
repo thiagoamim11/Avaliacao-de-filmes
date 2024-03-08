@@ -54,7 +54,7 @@ ul li a {
     font-style: normal;
 }
 
-h4 {
+h4 {        
     font-size: 1.25rem;
     justify-content: center;
     align-items: center;
@@ -62,7 +62,7 @@ h4 {
     padding: 0.625rem;
 }
 
-strong {
+strong {       /* aqui manipula todos os textos dentro de strong */
     color: #FFC125;
     font-size: 1.5625rem;
     font-weight: bold;
@@ -71,7 +71,30 @@ strong {
     font-weight: 400;
 }
 
-.seta {
-    color: red;
+header ul li div a {  /* aqui deixa a categoria e a setinha um do lado do outro */
+    display: flex;
+ }
+
+header ul li div a  {   /* aqui é manipulado o texto Categoria */
+   color: #FFC125;
+   font-family: "Madimi One", sans-serif;
+   justify-content: center;
+   
 }
 
+header ul li div a div {  /* essa é a div que manipula a setinha */
+    color: red;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 0.0625rem;
+    padding-top: 0.0625rem;
+    display: flex;
+ }
+
+ header ul li div a:hover {
+    color: aqua;
+ }
+
+ header ul li div a div:hover {
+    color: aqua;
+ }

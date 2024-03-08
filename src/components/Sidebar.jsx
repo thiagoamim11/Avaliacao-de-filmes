@@ -17,10 +17,12 @@ export function Sidebar() {
                 <li><a href=''>Series</a></li>
 
                 <li>
-                    <div>
-                        <a href="">Categoria</a>
-                        
-                       {/* <BsFillCaretDownFill className='seta' onClick={() => setShowGeneroDropdown(!showGeneroDropdown)} /> {/* Esse codigo é do icone da setinha para baixo */}
+                    <div className='container'>
+                        <a href=''>Categoria
+                            <div>
+                                <BsFillCaretDownFill class='seta' onClick={() => setShowGeneroDropdown(!showGeneroDropdown)} /> {/* Esse codigo é do icone da setinha para baixo */}
+                            </div>
+                        </a>
                     </div>
                     {showGeneroDropdown && (
                         <ul>

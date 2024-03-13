@@ -10,8 +10,8 @@ function App() {
     <div>
       <Sidebar/>
       <Router>
-        <Routes>          
-          <Route path="/TelaPrincipal" element={<TelaPrincipal />} />
+        <Routes>         
+          <Route path="/" element={<TelaPrincipal/>} />
         </Routes>
       </Router>
     </div>

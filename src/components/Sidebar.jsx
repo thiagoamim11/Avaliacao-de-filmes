@@ -26,7 +26,7 @@ export function Sidebar() {
                 <li>
                     <div className={styles.container}>  { /* para funcionar a classe aqui no react é dessa maneira que faz, quebrei a cabeça por dias para descobrir isso */}
                         <a href='' onClick={toggleGeneroDropdown}>
-                            Categoria
+                            Gênero
                         </a>
                         <ul className={styles["genero-dropdown"]}>
                             {genero.map((genero, index) => (

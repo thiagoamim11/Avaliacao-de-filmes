@@ -6,10 +6,8 @@ import { Sidebar } from './components/Sidebar'
 
 
 function App() {
-
   return (
-    <div>
-      <Sidebar/>
+    <div>      
       <TelaPrincipal/>
       {/*
       <Router>

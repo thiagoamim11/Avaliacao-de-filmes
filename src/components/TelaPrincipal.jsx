@@ -11,7 +11,12 @@ export function TelaPrincipal() {
             <Sidebar />
             <main>
                 <div>
-                    <h1>Santa Maria Mãe de Deus</h1>
+                    <ul>
+                        <li><img src='cartaz.webp'/></li>
+                        <li><img src='cartaz1.jpg'/></li>
+                        <li><img src='cartaz2.jpg'/></li>
+                        <li><img src='cartaz3.png'/></li>
+                    </ul>
                 </div>
 
 

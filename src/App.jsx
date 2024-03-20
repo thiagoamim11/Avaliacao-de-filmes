@@ -4,7 +4,6 @@ import { TelaPrincipal } from './components/TelaPrincipal'
 import { Sidebar } from './components/Sidebar'
 
 
-
 function App() {
   return (
     <div>      

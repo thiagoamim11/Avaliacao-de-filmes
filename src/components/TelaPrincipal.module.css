@@ -9,3 +9,24 @@ main div {
 }
 
 
+
+
+main div {
+    width: 100%;
+    padding: 1.875rem;
+    
+}
+
+div ul li img {
+    width: 12.5rem;
+    height: 13.125rem;
+}
+
+.areaDeLogin {
+    background-color: aqua;
+    
+}
+
+.areaDeLogin input {
+    height: 20px;
+}

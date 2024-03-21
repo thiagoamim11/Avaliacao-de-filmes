@@ -1,33 +1,26 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './TelaPrincipal.module.css';
+import styles from './TelaPrincipal.module.css';
 import { Sidebar } from './Sidebar';
-
-
 
 export function TelaPrincipal() {
     return (
-        <div>
+        <div>   {/* fazer um carrocel aqui  */}
             <Sidebar />
             <main>
-                <div>
+                <div className="carousel-container">
                     <ul>
-                        <li><img src='cartaz.webp'/></li>
-                        <li><img src='cartaz1.jpg'/></li>
-                        <li><img src='cartaz2.jpg'/></li>
-                        <li><img src='cartaz3.png'/></li>
+                        <li><img src='cartaz.webp' alt="Imagem 1" /></li>
+                        <li><img src='cartaz1.jpg' alt="Imagem 2" /></li>
+                        <li><img src='cartaz2.jpg' alt="Imagem 3" /></li>
+                        <li><img src='cartaz3.png' alt="Imagem 4" /></li>
                     </ul>
                 </div>
 
-
-                {/*
-            <h1>Tela Principal</h1>
-            <Link to="/">
-                <button>Tela De Login</button>
-            </Link>
-    esse trecho de codigo esta bugando o sidebar, temos que descobrir como usar os dois juntos*/}
+                <div className={styles.areaDeLogin}> {/*Login */}
+                    <input placeholder='Digite o nome do usuario ou email'/>
+                </div>
             </main>
         </div>
-    )
+    );
 }
-

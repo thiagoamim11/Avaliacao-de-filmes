@@ -11,7 +11,7 @@ main div {
 
 
 
-main div {
+main div {  
     width: 100%;
     padding: 1.875rem;
     
@@ -22,11 +22,50 @@ div ul li img {
     height: 13.125rem;
 }
 
+/* aqui começa a area onde fica os inputs dee login */
+
 .areaDeLogin {
     background-color: aqua;
+    flex-direction: column;
+    height: 100%;    
+    width: 300px;
+    display: flex;
+    align-items: center;
     
 }
 
 .areaDeLogin input {
     height: 20px;
+    width: 200px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.carrocel {
+    height: 100%;
+}
+
+section {
+    height: 100%
+}
+
+
+/* esse trecho é o trecho da imagem que fica dentro da areaInput */
+
+h4 {        
+    font-size: 1.25rem;
+    justify-content: center;
+    align-items: center;
+    color: aqua;
+    padding: 0.625rem;
+}
+
+strong {       /* aqui manipula todos os textos dentro de strong */
+    color: #FFC125;
+    font-size: 1.5625rem;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
 }

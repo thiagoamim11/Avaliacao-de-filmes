@@ -29,7 +29,7 @@ div ul li img {
     flex-direction: column;
     max-height: 400px;    
     width: 400px;
-     
+    display: flex;
     align-items: center;
     
 }
@@ -37,7 +37,7 @@ div ul li img {
 .areaDeLogin input {
     height: 20px;
     width: 100%;
-    align-items: center;
+    
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -51,7 +51,7 @@ div ul li img {
 
 section {
     height: 100%;
-    
+       
     justify-content: center;
     display: flex;
 }

@@ -24,10 +24,11 @@ export function TelaPrincipal() {
                             <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
                         </div>
                         
-                        
+                        <div>
                         <input type='text' placeholder='Login ou e-mail' />
                         <input type='text' placeholder='Senha' />
                         <button>CONFIRMAR</button>
+                        </div>
                     </div>
                 </section>
             </main>

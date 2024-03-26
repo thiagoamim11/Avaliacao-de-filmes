@@ -27,9 +27,9 @@ div ul li img {
 .areaDeLogin {
     border: aqua solid 2px;
     flex-direction: column;
-        
+    max-height: 400px;    
     width: 400px;
-    
+     
     align-items: center;
     
 }
@@ -51,7 +51,7 @@ div ul li img {
 
 section {
     height: 100%;
-    background-color: #FFC125;
+    
     justify-content: center;
     display: flex;
 }

@@ -8,13 +8,14 @@ main div {
     display: flex;
 }
 
-
-
-
 main div {  
     width: 100%;
-    padding: 1.875rem;
     
+    
+}
+
+div.slider-wrapper {
+    padding: 1.875rem;
 }
 
 div ul li img {
@@ -29,8 +30,8 @@ div ul li img {
     flex-direction: column;
     max-height: 400px;    
     width: 400px;
-     
     align-items: center;
+   
     
 }
 
@@ -74,4 +75,29 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     font-style: italic;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
+    
+}
+
+.carouselImage {
+    width: 100%;
+    height: 500px; /* Defina a altura máxima desejada */
+    margin-top: 30%;
+    
+        
+}
+
+.imageWrapper {
+    margin: 0 10px;   /* Ajuste o espaçamento conforme necessário */
+    height: 500px;
+    margin-top: 30%;
+}
+
+.titulo{
+    position: absolute; /* Define o posicionamento absoluto para o título */
+    top: 13%; /* Ajusta a distância do topo */
+    left: 50%; /* Posiciona o título horizontalmente no centro */
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
+    z-index: 3; /* Garante que o título esteja acima do carrossel */
+    color: #FFC125;
+    font-size: 3vh
 }

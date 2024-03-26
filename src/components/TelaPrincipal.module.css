@@ -25,29 +25,35 @@ div ul li img {
 /* aqui começa a area onde fica os inputs dee login */
 
 .areaDeLogin {
-    background-color: aqua;
+    border: aqua solid 2px;
     flex-direction: column;
-    height: 100%;    
-    width: 300px;
-    display: flex;
+        
+    width: 400px;
+    
     align-items: center;
     
 }
 
 .areaDeLogin input {
     height: 20px;
-    width: 200px;
+    width: 100%;
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
 }
 
+
+
 .carrocel {
     height: 100%;
+        
 }
 
 section {
-    height: 100%
+    height: 100%;
+    background-color: #FFC125;
+    justify-content: center;
+    display: flex;
 }
 
 

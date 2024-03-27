@@ -16,7 +16,8 @@ export function TelaPrincipal({ draggable }) {
         autoplay: true,
         autoplaySpeed: 200,
         arrows: false,
-        draggable: draggable,        
+        draggable: draggable,  
+              
         responsive: [
             {
                 breakpoint: 1024,

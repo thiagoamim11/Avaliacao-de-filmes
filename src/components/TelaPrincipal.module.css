@@ -6,6 +6,7 @@ main div {
     height: 1000px;
     justify-content: center;
     display: flex;
+
 }
 
 main div {  
@@ -36,8 +37,7 @@ div ul li img {
 
 .areaDeLogin input {
     height: 20px;
-    width: 100%;
-    
+    width: 100%;  
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -100,5 +100,6 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     left: 50%; /* Posiciona o título horizontalmente no centro */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     color: #FFC125;
-    font-size: 3vh
+    font-size: 3vh;
+    z-index: 5;
 }

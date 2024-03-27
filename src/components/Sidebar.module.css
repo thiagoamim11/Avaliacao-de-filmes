@@ -34,17 +34,21 @@ header {
     font-weight: 400;
     font-style: normal;
     background-color: #1C1C1C;   
+
+
             
 }
 
 ul {
     display: flex;
 
+
 }
 
 ul li {
     list-style: none;
     padding: 1.25rem;
+
 }
 
 ul li a {
@@ -53,6 +57,7 @@ ul li a {
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 
 h4 {        
@@ -61,6 +66,7 @@ h4 {
     align-items: center;
     color: aqua;
     padding: 0.625rem;
+
 }
 
 strong {       /* aqui manipula todos os textos dentro de strong */
@@ -70,16 +76,19 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     font-style: italic;
     font-family: "Madimi One", sans-serif;
     font-weight: 400;
+
 }
 
 header ul li div {  /* aqui deixa a categoria e a setinha um do lado do outro */
     display: flex;
+
  }
 
 header ul li div p  {   /* aqui é manipulado o texto Categoria */
    color: #FFC125;
    font-family: "Madimi One", sans-serif;
    justify-content: center;
+
    
 }
 
@@ -90,16 +99,23 @@ header ul li div a {  /* essa é a div que manipula a setinha */
     padding-left: 0.0625rem;
     padding-top: 0.0625rem;
     display: flex;
+
  }
 
  a:hover {
     color: aqua;
+
  }
+
+ .show {
+  display: block;
+}
 
  
 
  .container {
     position: relative; /* Adiciona posição relativa ao container */
+
  }
   
   .genero-dropdown {
@@ -107,18 +123,22 @@ header ul li div a {  /* essa é a div que manipula a setinha */
     top: 100%; /* Posiciona a lista abaixo do botão Categoria */
     left: 0; /* Alinha a lista com o lado esquerdo do botão Categoria */
     background-color: transparent; /* Cor de fundo da lista */       
-    z-index: 1; /* Garante que a lista fique sobreposta ao conteúdo abaixo */
+    z-index: 10; /* Garante que a lista fique sobreposta ao conteúdo abaixo */
     display: none; /* Inicialmente oculta a lista de gêneros */    
     margin-left: -0.625rem;
-    background-color: #1C1C1C;    
+    background-color: #1C1C1C;   
+
+ 
   }
   
   .container:hover .genero-dropdown {
     display: block; /* Mostra a lista de gêneros quando o botão Categoria é hover */
+
   }
 
   .subCategorias {
     color: #FF8C00;
+
   }
 
   img {    /*configurando tamanho da imagem */
@@ -158,5 +178,7 @@ header ul li div a {  /* essa é a div que manipula a setinha */
       left: 50%; /* Posiciona o dropdown no centro da tela */
       transform: translateX(-50%); /* Move o dropdown para a esquerda em 50% de sua largura */
     }
+
+
   }
   

@@ -9,11 +9,9 @@ main div {
 }
 
 main div {  
-    width: 100%;
-    
-    
-}
+    width: 100%;  
 
+}
 div.slider-wrapper {
     padding: 1.875rem;
 }
@@ -30,13 +28,16 @@ div ul li img {
     flex-direction: column;
     max-height: 400px;    
     width: 400px;
+    align-items: center;
     display: flex;
-    align-items: center;       
+   
+    
 }
 
 .areaDeLogin input {
     height: 20px;
-    width: 100%;    
+    width: 100%;
+    
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -50,7 +51,7 @@ div ul li img {
 
 section {
     height: 100%;
-       
+    
     justify-content: center;
     display: flex;
 }
@@ -76,11 +77,14 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     
 }
 
+
+
+/*  CSS DO CAROUSEL   */
+
 .carouselImage {
     width: 100%;
     height: 500px; /* Defina a altura máxima desejada */
-    margin-top: 30%;
-    
+    margin-top: 30%;    
         
 }
 
@@ -94,7 +98,7 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     position: absolute; /* Define o posicionamento absoluto para o título */
     top: 13%; /* Ajusta a distância do topo */
     left: 50%; /* Posiciona o título horizontalmente no centro */
-    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */               
+    transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
     color: #FFC125;
-    font-size: 3vh;
+    font-size: 3vh
 }

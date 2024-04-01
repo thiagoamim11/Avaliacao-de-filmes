@@ -16,8 +16,8 @@ export function TelaPrincipal({ draggable }) {
         autoplay: true,
         autoplaySpeed: 200,
         arrows: false,
-        draggable: draggable,  
-              
+        draggable: draggable,
+
         responsive: [
             {
                 breakpoint: 1024,
@@ -50,49 +50,50 @@ export function TelaPrincipal({ draggable }) {
             <Sidebar />
             <main>
                 <div className={styles.carousel}>
-                <div className={styles.sliderWrapper}>
-                    <div className={styles.titulo}>
-                        <img src='filme1.png'/>
-                    <h1>Filmes em Destaque</h1>
-                    </div>
-
-                    <Slider {...settings} className={styles.destaque}>
-                        <div className={styles.imageWrapper}>
-                            <img src='https://capas-p.imagemfilmes.com.br/164747_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
-                        </div>
-                        <div className={styles.imageWrapper}>
-                            <img src='https://capas-p.imagemfilmes.com.br/164856_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
-                        </div>
-                        <div className={styles.imageWrapper}>
-                            <img src='https://capas-p.imagemfilmes.com.br/164869_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
-                        </div>
-                        <div className={styles.imageWrapper}>
-                            <img src='https://capas-p.imagemfilmes.com.br/164859_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
-                        </div>
-                        <div className={styles.imageWrapper}>
-                            <img src='https://capas-p.imagemfilmes.com.br/164815_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                    <div className={styles.sliderWrapper}>
+                        <div className={styles.titulo}>
+                            <img src='filme1.png' />
+                            <h1>Filmes em Destaque</h1>
                         </div>
 
+                        <Slider {...settings} className={styles.destaque}>
+                            <div className={styles.imageWrapper}>
+                                <img src='https://capas-p.imagemfilmes.com.br/164747_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                            </div>
+                            <div className={styles.imageWrapper}>
+                                <img src='https://capas-p.imagemfilmes.com.br/164856_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                            </div>
+                            <div className={styles.imageWrapper}>
+                                <img src='https://capas-p.imagemfilmes.com.br/164869_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                            </div>
+                            <div className={styles.imageWrapper}>
+                                <img src='https://capas-p.imagemfilmes.com.br/164859_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                            </div>
+                            <div className={styles.imageWrapper}>
+                                <img src='https://capas-p.imagemfilmes.com.br/164815_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                            </div>
 
-                        {/* Adicione mais imagens conforme necessário */}
-                    </Slider>
+
+                            {/* Adicione mais imagens conforme necessário */}
+                        </Slider>
                     </div>
                 </div>
-    
                 <section>
+
                     <div className={styles.loginArea}> {/* Login */}
-                        <div>
-                            <img src='filme1.png' alt="Filme 1" />
-                            <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
-                        </div>
-                        
+
+                        <img src='filme1.png' alt="Filme 1" />
+                        <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
 
 
-                        <div>
+
+
+
                         <input type='text' placeholder='Login ou e-mail' />
                         <input type='text' placeholder='Senha' />
                         <button>CONFIRMAR</button>
-                        </div>
+                        <div><p><a>Registre-se</a></p></div>
+
                     </div>
                 </section>
             </main>

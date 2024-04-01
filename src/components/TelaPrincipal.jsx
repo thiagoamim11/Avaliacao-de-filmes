@@ -52,10 +52,11 @@ export function TelaPrincipal({ draggable }) {
                 <div className={styles.carousel}>
                 <div className={styles.sliderWrapper}>
                     <div className={styles.titulo}>
-                    <h1>Filmes Em Destaque</h1>
+                        <img src='filme1.png'/>
+                    <h1>Filmes em Destaque</h1>
                     </div>
 
-                    <Slider {...settings}>
+                    <Slider {...settings} className={styles.destaque}>
                         <div className={styles.imageWrapper}>
                             <img src='https://capas-p.imagemfilmes.com.br/164747_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
                         </div>

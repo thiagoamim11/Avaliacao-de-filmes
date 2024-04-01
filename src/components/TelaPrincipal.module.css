@@ -25,10 +25,10 @@ div ul li img {
 /* aqui começa a area onde fica os inputs dee login */
 
 .areaDeLogin {
-    border: aqua solid 2px;
+    border: aqua solid 0.125rem;
     flex-direction: column;
-    max-height: 400px;    
-    width: 400px;
+    max-height: 25rem;    
+    width: 25rem;
     align-items: center;
     display: flex;
    
@@ -36,18 +36,14 @@ div ul li img {
 }
 
 .areaDeLogin input {
-    height: 20px;
+    height: 1.25rem;
     width: 100%;  
-    padding: 10px;
-    margin-bottom: 20px;
+    padding: 0.625rem;
+    margin-bottom: 1.25rem;
 }
 
 
 
-.carrocel {
-    height: 100%;
-        
-}
 
 section {
     height: 100%;
@@ -90,7 +86,7 @@ strong {       /* aqui manipula todos os textos dentro de strong */
 
 .imageWrapper {
     margin: 0 10px;   /* Ajuste o espaçamento conforme necessário */
-    height: 500px;
+    height: 31.25rem;
     margin-top: 30%;
 }
 
@@ -99,7 +95,35 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     top: 13%; /* Ajusta a distância do topo */
     left: 50%; /* Posiciona o título horizontalmente no centro */
     transform: translateX(-50%); /* Corrige a posição horizontal para o centro */
-    color: #FFC125;
+    color: red;
     font-size: 3vh;
-    z-index: 5;
+    z-index: 2;
+    font-family: "Anta", sans-serif;
+    height:  3.75rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    
 }
+
+.titulo h1 {
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: #FFC125; 
+    
+}
+
+.titulo img {
+    height: 5rem;
+    width: 5rem;
+    
+}
+
+.destaque {
+    margin-top: 5rem;
+}
+
+
+/* aqui termina o css do carrocel */
+
+

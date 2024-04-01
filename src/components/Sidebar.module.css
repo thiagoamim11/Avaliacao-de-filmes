@@ -27,17 +27,19 @@
 
 header {
     border-bottom: solid 0.125rem;
-    border-color: #363636;
+    border-color: #363636;  
     display: flex;
     justify-content: space-around;
     font-family: "Anta", sans-serif;
     font-weight: 400;
     font-style: normal;
     background-color: #1C1C1C;   
-
-
-            
+    position: fixed;
+    z-index: 9999;
+   /* background-color: rebeccapurple */
+    width: 100%;
 }
+
 
 ul {
     display: flex;

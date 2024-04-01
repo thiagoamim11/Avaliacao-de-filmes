@@ -78,6 +78,8 @@ export function TelaPrincipal({ draggable }) {
                         </Slider>
                     </div>
                 </div>
+
+                
                 <section>
 
                     <div className={styles.loginArea}> {/* Login */}
@@ -92,7 +94,7 @@ export function TelaPrincipal({ draggable }) {
                         <input type='text' placeholder='Login ou e-mail' />
                         <input type='text' placeholder='Senha' />
                         <button>CONFIRMAR</button>
-                        <div><p><a>Registre-se</a></p></div>
+                        <div><p><a className={styles.botaoRegistrar}>Registre-se</a></p></div>
 
                     </div>
                 </section>

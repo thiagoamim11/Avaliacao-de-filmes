@@ -35,18 +35,21 @@ section {
     display: flex; /* Tornando a seção um contêiner flexível */
     justify-content: center; /* Centralizando o conteúdo horizontalmente */
     align-items: center; /* Centralizando o conteúdo verticalmente */
-    
+   
 }
 
 .loginArea {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centralizando os elementos verticalmente */
-    border: 2px solid aqua;
-    max-width: 400px;
+    margin-bottom: 50px;
+    
     padding: 20px; /* Adicionando algum espaço interno */
-    max-height: 500px;
+    
     top: 0;
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    padding-top: 150px;
 }
 
 .loginArea input {
@@ -77,8 +80,9 @@ strong {       /* aqui manipula todos os textos dentro de strong */
     
 }
 
-div p a {
-    
+.botaoRegistrar {
+    font-size: 16px;
+    color: #FFC125;
 }
 
 /* AQUI TERMINA O CODIGO DENTRO DO ESPAÇO DE INPUT  */

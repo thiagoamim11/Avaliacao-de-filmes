@@ -2,9 +2,10 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { Link } from 'react-router-dom';
+
 import styles from './TelaPrincipal.module.css';
 import { Sidebar } from './Sidebar';
+
 
 export function TelaPrincipal({ draggable }) {
     const settings = {
@@ -46,6 +47,8 @@ export function TelaPrincipal({ draggable }) {
     };
 
     return (
+            
+
         <div>
             <Sidebar />
             <main>
@@ -74,7 +77,7 @@ export function TelaPrincipal({ draggable }) {
                             </div>
 
 
-                            {/* Adicione mais imagens conforme necessário */}
+                            
                         </Slider>
                     </div>
                 </div>
@@ -82,7 +85,7 @@ export function TelaPrincipal({ draggable }) {
                 
                 <section>
 
-                    <div className={styles.loginArea}> {/* Login */}
+                    <div className={styles.loginArea}> 
 
                         <img src='filme1.png' alt="Filme 1" />
                         <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>

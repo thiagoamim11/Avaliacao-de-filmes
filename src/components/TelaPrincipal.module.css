@@ -99,7 +99,7 @@ strong {       /* aqui manipula todos os textos dentro de strong */
 }
 
 .imageWrapper {
-    margin: 0 10px;   /* Ajuste o espaçamento conforme necessário */
+    margin: 0 0.625rem;   /* Ajuste o espaçamento conforme necessário */
     height: 31.25rem;
     margin-top: 30%;
 }

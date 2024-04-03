@@ -1,6 +1,7 @@
 import React from "react"
 import { Sidebar } from "./Sidebar"
 import styles from "./TelaCadastro.module.css"
+import { Link } from "react-router-dom"
 
 
 
@@ -21,7 +22,11 @@ export function TelaCadastro() {
 
                         <label className={styles.label5}>Confirmar senha</label>
                         <input type='text' placeholder='Digite a senha novamente' />
-                        <button className={styles.button5}>Confirmar</button>
+                      
+                        <button> <Link to="/" className={styles.button5}>Confirmar</Link></button>
+
+                      
+                        
                     </div>
                 </div>
             </main>

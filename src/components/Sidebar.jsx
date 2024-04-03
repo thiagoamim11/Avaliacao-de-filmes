@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BsFillCaretDownFill } from 'react-icons/bs';
 import styles from './Sidebar.module.css';
+import { Link } from 'react-router-dom';
 
 export function Sidebar() {
     const [showGeneroDropdown, setShowGeneroDropdown] = useState(false);
@@ -22,9 +23,11 @@ export function Sidebar() {
                 <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
             </div>
             <ul>
-                <li><a href=''>Home</a></li>
-                <li><a href=''>Filmes</a></li>
-                <li><a href=''>Séries</a></li>
+
+            <li><Link to="/" className={styles.seuEstilo}>Home</Link></li>
+                <li><Link to="/filmes">Filmes</Link></li>
+                <li><Link to="/series">Series</Link></li>
+
                 <li>
                     <div className={styles.container}>
                         <a href='' onClick={toggleGeneroDropdown}>

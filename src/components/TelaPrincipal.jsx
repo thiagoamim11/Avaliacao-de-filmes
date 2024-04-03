@@ -2,9 +2,9 @@ import React from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-
 import styles from './TelaPrincipal.module.css';
 import { Sidebar } from './Sidebar';
+import { Link } from 'react-router-dom';
 
 
 export function TelaPrincipal({ draggable }) {
@@ -97,7 +97,9 @@ export function TelaPrincipal({ draggable }) {
                         <input type='text' placeholder='Login ou e-mail' />
                         <input type='text' placeholder='Senha' />
                         <button>CONFIRMAR</button>
-                        <div><p><a className={styles.botaoRegistrar}>Registre-se</a></p></div>
+                        <div><p><a> <Link to="/cadastro" className={styles.botaoRegistrar}>Registre-se </Link> </a></p></div>
+                       
+
 
                     </div>
                 </section>

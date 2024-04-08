@@ -15,7 +15,7 @@ export function TelaPrincipal({ draggable }) {
         slidesToShow: 5,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 200,
+        autoplaySpeed: 400,
         arrows: false,
         draggable: draggable,
 
@@ -97,13 +97,14 @@ export function TelaPrincipal({ draggable }) {
                         <input type='text' placeholder='Login ou e-mail' />
                         <input type='text' placeholder='Senha' />
                         <button>CONFIRMAR</button>
-                        <div><p><a> <Link to="/cadastro" className={styles.botaoRegistrar}>Registre-se </Link> </a></p></div>
-                       
-
-
+                        <div><p><a> <Link to="/cadastro" className={styles.botaoRegistrar}>Registre-se </Link> </a></p></div>                      
                     </div>
                 </section>
             </main>
+
+            <footer className={styles.TelaPrincipalRodaPe}>
+                <div><h2>Autores: <strong className={styles.strong1}>Thiago Amim Elias</strong> & <strong className={styles.strong1}>Thiago Otero Lima</strong></h2></div>
+            </footer>
         </div>
     )
 }

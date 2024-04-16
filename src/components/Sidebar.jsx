@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 export function Sidebar() {
     const [showGeneroDropdown, setShowGeneroDropdown] = useState(false);
-    const genero = ["Terror", "Comédia", "Ação", "Suspense"];
+    const genero = ["Terror", "Comédia", "Ação", "Suspense","Drama", "Ficçào", "Romance", "Fantasia"];
 
     const toggleGeneroDropdown = () => {
         setShowGeneroDropdown(!showGeneroDropdown);

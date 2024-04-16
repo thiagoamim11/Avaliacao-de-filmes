@@ -1,18 +1,19 @@
 import React from "react"
 import { Sidebar } from "./Sidebar"
-import styles from "./TelaCadastro.module.css"
-import { Link } from "react-router-dom"
+import styles from "./TelaFilmes.module.css"
 
 
 
 export function TelaFilmes() {
 
-    return (
-        <div>
-          <h1>FILMES</h1>
+  return (
+    <div>
+      <Sidebar />
+      <div className={styles.container}>
+        <h1 className={styles.titulo}>FILMES</h1>
+      </div>
 
-          <button> <Link to="/" className={styles.button5}>HOME</Link></button>
-        </div>
+    </div>
 
-    )
+  )
 }

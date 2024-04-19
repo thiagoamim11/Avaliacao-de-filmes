@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { TelaFilmes } from './components/TelaFilmes';
 import { TelaSeries } from './components/TelaSeries';
 import {TelaTerror} from './components/TelaTerror';
+import {TelaComedia} from './components/TelaComedia';
 
 function App() {
   return (    
@@ -15,7 +16,8 @@ function App() {
           <Route path="/cadastro" element={<TelaCadastro />} />
           <Route path="/filmes"  element={<TelaFilmes />}/>
           <Route path="/series"  element={<TelaSeries />}/>
-          <Route path="terror"  element={<TelaTerror/>}/>
+          <Route path="/terror"  element={<TelaTerror/>}/>
+          <Route path="/comédia" element={<TelaComedia/>}/>
           
         </Routes>
       </div>

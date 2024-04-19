@@ -3,17 +3,13 @@ import { BsFillCaretDownFill } from 'react-icons/bs';
 import styles from './Sidebar.module.css';
 import { Link } from 'react-router-dom';
 
+
 export function Sidebar() {
     const [showGeneroDropdown, setShowGeneroDropdown] = useState(false);
     const genero = ["Terror", "Comédia", "Ação", "Suspense","Drama", "Ficçào", "Romance", "Fantasia"];
 
     const toggleGeneroDropdown = () => {
         setShowGeneroDropdown(!showGeneroDropdown);
-    };
-
-    const handleGeneroClick = (genero) => {
-        console.log("Clicked genre: ", genero);
-        setShowGeneroDropdown(!showGeneroDropdown); // Inverte o estado do dropdown
     };
 
     return (
@@ -23,11 +19,9 @@ export function Sidebar() {
                 <h4>Avaliação de <strong>Filmes</strong> & <strong>Séries</strong></h4>
             </div>
             <ul>
-
-            <li><Link to="/" className={styles.seuEstilo}>Home</Link></li>
+                <li><Link to="/" className={styles.seuEstilo}>Home</Link></li>
                 <li><Link to="/filmes">Filmes</Link></li>
                 <li><Link to="/series">Series</Link></li>
-
                 <li>
                     <div className={styles.container}>
                         <a href='' onClick={toggleGeneroDropdown}>
@@ -36,8 +30,13 @@ export function Sidebar() {
                         <ul className={`${styles["genero-dropdown"]} ${showGeneroDropdown ? styles.show : ''}`}>
                             {genero.map((genero, index) => (
                                 <li key={index}>
-                                    <a className={styles.subCategorias} href={`#${genero}`} onClick={() => handleGeneroClick(genero)}>{genero}</a>
+                                    <Link className={styles.subCategorias} to={`/${genero.toLowerCase()}`} onClick={toggleGeneroDropdown}>
+                                        {genero}
+                                    </Link>
+                                    
                                 </li>
+
+                                
                             ))}
                         </ul>
                     </div>

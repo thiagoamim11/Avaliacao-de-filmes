@@ -15,22 +15,24 @@ function Star({ filled, onClick }) {
 
 // Componente para exibir o sistema de avaliação de estrelas
 function RatingStars({ rating, onRate, onHover, hoverRating }) {
-  return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
-      {[1, 2, 3, 4, 5].map((index) => (
-        <Star 
-          key={index} 
-          filled={index <= (hoverRating || rating)} 
-          onClick={() => onRate(index)} 
-          onMouseEnter={() => onHover(index)} 
-          onMouseLeave={() => onHover(0)} 
-        />
-      ))}
-    </div>
-  );
-}
+    return (
+      <div style={{ display: 'flex', flexDirection: 'row' }}>
+        {[1, 2, 3, 4, 5].map((index) => (
+          <Star 
+            key={index} 
+            filled={index <= (hoverRating || rating)} 
+            onClick={() => onRate(index)} 
+            onMouseEnter={() => onHover(index)} 
+            onMouseLeave={() => onHover(0)} 
+          />
+        ))}
+      </div>
+    );
+  }
+  
 
-export function TelaFilmes() {
+export function TelaTerror() {
+
   const [ratings, setRatings] = useState([0, 0]); // Inicialmente, todas as avaliações são 0
   const [hoverRatings, setHoverRatings] = useState([0, 0]); // Inicialmente, todas as avaliações de hover são 0
 
@@ -51,15 +53,15 @@ export function TelaFilmes() {
       <Sidebar />
       <div className={styles.container}>
         
-        <h1 className={styles.titulo}>FILMES</h1>
+        <h1 className={styles.titulo}>Terror</h1>
 
         <div className={styles.fila1}> 
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164747_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/bXZUVJP8Fr3RId7SSsV4RXvjnIh.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '28vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[0]}
@@ -127,9 +129,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164065_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/tqL9crUxFNjlQaxxXRCNqLfE6aE.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '28.3vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[5]}
@@ -146,9 +148,9 @@ export function TelaFilmes() {
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164093_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/m8SaApPUxxNqyngVK2qvSYpSRjr.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '28vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[6]}
@@ -189,9 +191,9 @@ export function TelaFilmes() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164907_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/dTlu1ndJPkiS7TBqS6e0Yvdor3y.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '29vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[9]}
@@ -218,9 +220,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164016_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/laOpPREcTlDukttovlUGJ3Wmtb6.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '29vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[11]}

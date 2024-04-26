@@ -57,9 +57,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164747_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/qE4FZQiaQcKo9mYuqu2SwLIgbwG.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[0]}
@@ -71,9 +71,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164870_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/iXeSqzojUZ4exuCp5Mpo4o308PM.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[1]}
@@ -85,9 +85,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164525_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/pSr0JjkI9iM1Yxe9cqrS6YBonAA.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[2]}
@@ -99,9 +99,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164099_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/yakB8fDVhqmqiocjILPVh1aBze2.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[3]}
@@ -113,9 +113,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164160_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/6DESAF0DIpMxAjQpqkSeOmi70tu.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto',margin: '10px'  }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[4]}
@@ -127,9 +127,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164065_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/kkXGsCIo643ryekY8UT6Onzrc4r.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[5]}
@@ -146,9 +146,9 @@ export function TelaFilmes() {
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164093_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[6]}
@@ -160,9 +160,9 @@ export function TelaFilmes() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164091_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w185/1ylraenvcOtKBP5bp5cTC365fAV.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[7]}
@@ -174,9 +174,9 @@ export function TelaFilmes() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164090_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/8eyTXtfSAQyXjGP2qSYNZv5UZzy.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[8]}
@@ -189,9 +189,9 @@ export function TelaFilmes() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164907_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/nhaJGTfYNaof7uxSsUEyeH01NKB.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[9]}
@@ -203,9 +203,9 @@ export function TelaFilmes() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164041_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/8LJJjLjAzAwXS40S5mx79PJ2jSs.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[10]}
@@ -218,9 +218,9 @@ export function TelaFilmes() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://capas-p.imagemfilmes.com.br/164016_000_p.jpg" 
+              src="https://image.tmdb.org/t/p/w500/bXZUVJP8Fr3RId7SSsV4RXvjnIh.jpg" 
               alt="Capa do filme" 
-              style={{ width: '85%', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
+              style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
             <RatingStars 
               rating={ratings[11]}

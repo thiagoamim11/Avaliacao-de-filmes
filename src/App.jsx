@@ -6,6 +6,8 @@ import { TelaFilmes } from './components/TelaFilmes';
 import { TelaSeries } from './components/TelaSeries';
 import {TelaTerror} from './components/TelaTerror';
 import {TelaComedia} from './components/TelaComedia';
+import { TelaAcao } from './components/TelaAcao';
+import { TelaSuspense } from './components/TelaSuspense';
 
 function App() {
   return (    
@@ -18,6 +20,13 @@ function App() {
           <Route path="/series"  element={<TelaSeries />}/>
           <Route path="/terror"  element={<TelaTerror/>}/>
           <Route path="/comédia" element={<TelaComedia/>}/>
+          <Route path="/ação" element={<TelaAcao/>}/>
+          <Route path="/suspense" element={<TelaSuspense/>}/>
+
+
+          
+
+
           
         </Routes>
       </div>

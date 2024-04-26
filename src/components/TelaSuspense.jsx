@@ -31,7 +31,7 @@ function RatingStars({ rating, onRate, onHover, hoverRating }) {
   }
   
 
-export function TelaTerror() {
+export function TelaSuspense() {
 
   const [ratings, setRatings] = useState([0, 0]); // Inicialmente, todas as avaliações são 0
   const [hoverRatings, setHoverRatings] = useState([0, 0]); // Inicialmente, todas as avaliações de hover são 0
@@ -53,13 +53,13 @@ export function TelaTerror() {
       <Sidebar />
       <div className={styles.container}>
         
-        <h1 className={styles.titulo}>Terror</h1>
+        <h1 className={styles.titulo}>Suspense</h1>
 
         <div className={styles.fila1}> 
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w185/bXZUVJP8Fr3RId7SSsV4RXvjnIh.jpg" 
+              src="https://image.tmdb.org/t/p/w500/5v3grtPk3QSdjDP8ggpylA3hgIy.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -73,7 +73,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/md4YiWgaR40nicvbPIq7BCE4qQY.jpg" 
+              src="https://image.tmdb.org/t/p/w500/1jVlr869bV5ulcrJzqNlJs5KTMx.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -87,7 +87,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/d4gomiaeEAVkgofuyCHtzKkuXVS.jpg" 
+              src="https://image.tmdb.org/t/p/w500/oyfiB4AIQVOKSv2IJcvsNF5wrV.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -101,7 +101,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/mfsjeTuSiYfikzQ8imOIqZJq7GL.jpg" 
+              src="https://image.tmdb.org/t/p/w500/wmFJKTkwNBEcz5R099ELCVLfFKb.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -115,7 +115,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/pRapSkoVtHeXDPfUP4883njzIJ3.jpg" 
+              src="https://image.tmdb.org/t/p/w500/ulFminIHylwJaORyAf7IfHjvWCn.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -129,7 +129,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w185/tqL9crUxFNjlQaxxXRCNqLfE6aE.jpg" 
+              src="https://image.tmdb.org/t/p/w500/oyfiB4AIQVOKSv2IJcvsNF5wrV.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -148,7 +148,7 @@ export function TelaTerror() {
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w185/m8SaApPUxxNqyngVK2qvSYpSRjr.jpg" 
+              src="https://image.tmdb.org/t/p/w500/wpEbqJ2UYMx1dCgQW6kRgNAlmo4.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -162,7 +162,7 @@ export function TelaTerror() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/6LzsJAsx8M6FBsrDCvUKjSkmmmp.jpg" 
+              src="https://image.tmdb.org/t/p/w500/rhobjjKyCSmgCGieYKbTuUj8vf6.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -176,7 +176,7 @@ export function TelaTerror() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/1ZZFTMqbQaP59yGTqKOcfqVE7NC.jpg" 
+              src="https://image.tmdb.org/t/p/w500/yEFhuJHBpqANl0Sp1ZhY1bq9fsO.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -191,7 +191,7 @@ export function TelaTerror() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w185/dTlu1ndJPkiS7TBqS6e0Yvdor3y.jpg" 
+              src="https://image.tmdb.org/t/p/w500/iXt5oRJynNWn7kb0TLaAhV6bkc0.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -205,7 +205,7 @@ export function TelaTerror() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/jO6L4j8TzsCGQrl6oiAgehk4aqI.jpg" 
+              src="https://image.tmdb.org/t/p/w500/1GGqZZVFYzKn6WTQgR5bQFqMpIR.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -220,7 +220,7 @@ export function TelaTerror() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w185/laOpPREcTlDukttovlUGJ3Wmtb6.jpg" 
+              src="https://image.tmdb.org/t/p/w500/aFko0du20Rrn7lWYF2gxAQSfrt5.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />

@@ -61,19 +61,19 @@ export function TelaPrincipal({ draggable }) {
 
                         <Slider {...settings} className={styles.destaque}>
                             <div className={styles.imageWrapper}>
-                                <img src='https://capas-p.imagemfilmes.com.br/164747_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                                <img src='https://image.tmdb.org/t/p/w500/oQJWjO5aw5N4uCoh6CYrxf1LePv.jpg' className={styles.carouselImage} draggable={draggable} />
                             </div>
                             <div className={styles.imageWrapper}>
-                                <img src='https://capas-p.imagemfilmes.com.br/164856_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                                <img src='https://image.tmdb.org/t/p/w500/qGz5rffXhegQH5PGUDiObqoOt06.jpg' className={styles.carouselImage} draggable={draggable} />
                             </div>
                             <div className={styles.imageWrapper}>
-                                <img src='https://capas-p.imagemfilmes.com.br/164869_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                                <img src='https://image.tmdb.org/t/p/w500/2MWZy92O30GX0HwKyVvQ8rddqGU.jpg' className={styles.carouselImage} draggable={draggable} />
                             </div>
                             <div className={styles.imageWrapper}>
-                                <img src='https://capas-p.imagemfilmes.com.br/164859_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                                <img src='https://image.tmdb.org/t/p/w500/pMyNl3NlZx1CXgbrCuSiWkWdp9D.jpg' className={styles.carouselImage} draggable={draggable} />
                             </div>
                             <div className={styles.imageWrapper}>
-                                <img src='https://capas-p.imagemfilmes.com.br/164815_000_p.jpg' className={styles.carouselImage} draggable={draggable} />
+                                <img src='https://image.tmdb.org/t/p/w500/qE4FZQiaQcKo9mYuqu2SwLIgbwG.jpg' className={styles.carouselImage} draggable={draggable} />
                             </div>
 
 

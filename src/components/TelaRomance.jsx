@@ -31,7 +31,7 @@ function RatingStars({ rating, onRate, onHover, hoverRating }) {
   }
   
 
-export function TelaSuspense() {
+export function TelaRomance() {
 
   const [ratings, setRatings] = useState([0, 0]); // Inicialmente, todas as avaliações são 0
   const [hoverRatings, setHoverRatings] = useState([0, 0]); // Inicialmente, todas as avaliações de hover são 0
@@ -53,13 +53,13 @@ export function TelaSuspense() {
       <Sidebar />
       <div className={styles.container}>
         
-        <h1 className={styles.titulo}>Suspense</h1>
+        <h1 className={styles.titulo}>Romance</h1>
 
         <div className={styles.fila1}> 
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/5v3grtPk3QSdjDP8ggpylA3hgIy.jpg" 
+              src="https://image.tmdb.org/t/p/w342/oTc03izWZ9UdD3y0HegVV2M0s0J.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -73,7 +73,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/1jVlr869bV5ulcrJzqNlJs5KTMx.jpg" 
+              src="https://image.tmdb.org/t/p/w342/a4hgR6aKoohB6MHni171jbi9BkU.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -87,7 +87,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w342/3V0iiaCYgaJHL1Z6aiTyacDzfof.jpg" 
+              src="https://image.tmdb.org/t/p/w342/qBMCWy4CdXC8T17h3sceZPpzH7y.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -101,7 +101,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/wmFJKTkwNBEcz5R099ELCVLfFKb.jpg" 
+              src="https://image.tmdb.org/t/p/w342/igDiLvOjYOGDApYpuW0eq65e0kV.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -115,7 +115,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/ulFminIHylwJaORyAf7IfHjvWCn.jpg" 
+              src="https://image.tmdb.org/t/p/w342/gbdCqAc3Xsg5RhgOJZtUikqMa8m.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -129,7 +129,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/oyfiB4AIQVOKSv2IJcvsNF5wrV.jpg" 
+              src="https://image.tmdb.org/t/p/w342/qmTxQvHnsLpiZQiIZu2hsmZSqR8.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -148,7 +148,7 @@ export function TelaSuspense() {
 
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/wpEbqJ2UYMx1dCgQW6kRgNAlmo4.jpg" 
+              src="https://image.tmdb.org/t/p/w342/ckkonQaz7CWJSueM15ncHmGt6PM.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -162,7 +162,7 @@ export function TelaSuspense() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/rhobjjKyCSmgCGieYKbTuUj8vf6.jpg" 
+              src="https://image.tmdb.org/t/p/w342/qaWpInqafTmmAIEteJ4q71hCep4.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -176,7 +176,7 @@ export function TelaSuspense() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/yEFhuJHBpqANl0Sp1ZhY1bq9fsO.jpg" 
+              src="https://image.tmdb.org/t/p/w342/f69k8OpsxZIXUFrQ2OE56fSVZ9N.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -191,7 +191,7 @@ export function TelaSuspense() {
 
          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/iXt5oRJynNWn7kb0TLaAhV6bkc0.jpg" 
+              src="https://image.tmdb.org/t/p/w342/toSI71gFF11VnLfz2uiNx6jjNUF.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -205,7 +205,7 @@ export function TelaSuspense() {
   
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/1GGqZZVFYzKn6WTQgR5bQFqMpIR.jpg" 
+              src="https://image.tmdb.org/t/p/w342/nkAt4a7KIPc7Fi1BhxNHhYYbe2b.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
@@ -220,7 +220,7 @@ export function TelaSuspense() {
 
           <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <img 
-              src="https://image.tmdb.org/t/p/w500/aFko0du20Rrn7lWYF2gxAQSfrt5.jpg" 
+              src="https://image.tmdb.org/t/p/w342/5lv2gsdke7FtISln0x3DjEMJT2V.jpg" 
               alt="Capa do filme" 
               style={{ width: '25vh', height: 'auto', margin: '10px' }} // Definindo largura de 100% e altura automática
             />
